@@ -1,0 +1,13 @@
+export { default as Login } from "./Login";
+export { default as AdminDashboard } from "./AdminDashboard";
+export { default as RegisterCandidate } from "./RegisterCandidate";
+export { default as CandidateList } from "./CandidateList";
+export { default as CandidateDetail } from "./CandidateDetail";
+export { default as SuperAdminDashboard } from "./SuperAdminDashboard";
+export { default as Createadminform } from "./Createadminform";
+export { default as Viewadmin } from "./Viewadmin";
+export { default as AdminDetails } from "./AdminDetails";
+export { default as ReviewResumes } from "./ReviewResumes";
+export { default as PostMandate } from "./PostMandate";
+export { default as MandateWork } from "./MandateWork";
+export { default as mandatedetails } from "./mandatedetails";

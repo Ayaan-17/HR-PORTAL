@@ -1,0 +1,60 @@
+.review-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.review-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.review-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.review-card p {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+.button-group {
+  margin-top: 12px;
+  display: flex;
+  gap: 12px;
+}
+
+.button-approve,
+.button-deny {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button-approve {
+  background-color: #28a745;
+  color: white;
+}
+
+.button-deny {
+  background-color: #dc3545;
+  color: white;
+}
+
+.button-approve:hover {
+  background-color: #218838;
+}
+
+.button-deny:hover {
+  background-color: #c82333;
+}

@@ -1,0 +1,80 @@
+.send-resume-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.send-resume-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.status-message {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.table-container {
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+.resume-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.resume-table th,
+.resume-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.resume-table th {
+  background-color: #f9f9f9;
+}
+
+.selected-row {
+  background-color: #e6f7ff;
+}
+
+.status-tag {
+  padding: 4px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.status-tag.pending {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status-tag.approved {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-tag.denied {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.send-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.send-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

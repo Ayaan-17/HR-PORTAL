@@ -1,0 +1,54 @@
+.candidate-detail {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 8px;
+  background-color: #fefefe;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.candidate-detail h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: #333;
+  border-bottom: 2px solid #0077cc;
+  padding-bottom: 10px;
+}
+
+.candidate-detail ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.candidate-detail li {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  align-items: start;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.candidate-detail strong {
+  color: #222;
+  font-weight: 600;
+}
+
+.candidate-detail a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.candidate-detail a:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  font-weight: bold;
+}

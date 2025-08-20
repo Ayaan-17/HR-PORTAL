@@ -1,0 +1,109 @@
+/* mandatedetails.css — no Tailwind needed */
+
+/* Layout helpers */
+.p-4 {
+  padding: 1rem;
+} /* 16px */
+.p-3 {
+  padding: 0.75rem;
+} /* 12px */
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+/* Typography */
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-semibold {
+  font-weight: 600;
+}
+
+/* Width */
+.w-full {
+  width: 100%;
+}
+
+/* Borders & radius */
+.border {
+  border: 1px solid #d1d5db;
+} /* neutral gray */
+.border-gray-400 {
+  border-color: #9ca3af;
+} /* slightly darker gray */
+.rounded {
+  border-radius: 0.5rem;
+} /* 8px */
+
+/* Backgrounds */
+.bg-gray-50 {
+  background-color: #f9fafb;
+}
+
+/* Tables */
+.table-auto {
+  table-layout: auto;
+}
+.border-collapse {
+  border-collapse: collapse;
+}
+
+/* Basic table styling for readability */
+table.table-auto {
+  font-size: 0.95rem;
+}
+
+table.table-auto thead th {
+  background: #f3f4f6;
+  text-align: left;
+}
+
+table.table-auto tbody tr:nth-child(even) {
+  background: #fcfcfd;
+}
+
+/* Responsive tweaks */
+@media (max-width: 640px) {
+  .text-xl {
+    font-size: 1.125rem;
+    line-height: 1.6;
+  }
+  .text-lg {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  table.table-auto {
+    font-size: 0.9rem;
+  }
+  .px-2 {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+  }
+  .py-1 {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+}

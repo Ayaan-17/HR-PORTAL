@@ -1,0 +1,97 @@
+.submit-resume-container {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mandate-heading,
+.resume-heading {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #333;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+.mandate-details {
+  background-color: #ffffff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.mandate-details p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #444;
+}
+
+.resume-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.resume-item {
+  background-color: #fff;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 1rem;
+  transition:
+    border 0.3s,
+    background-color 0.3s;
+  cursor: pointer;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+.resume-item:hover {
+  border-color: #007bff;
+  background-color: #f0f8ff;
+}
+
+.resume-item.selected {
+  border-color: #28a745;
+  background-color: #eaffea;
+}
+
+.resume-item p {
+  margin: 0.3rem 0;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.send-resumes-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send-resumes-btn:hover {
+  background-color: #0056b3;
+}
+
+.add-candidate-btn {
+  margin-top: 16px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-candidate-btn:hover {
+  background-color: #0056b3;
+}
